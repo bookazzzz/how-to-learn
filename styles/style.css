@@ -35,6 +35,7 @@
   height: 100%;
   align-items: center;
   padding-left: 64px;
+  z-index: 2;
 
 }
 
@@ -52,6 +53,7 @@ h1 {
   line-height:25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .header__main-illustration {
@@ -60,7 +62,7 @@ h1 {
   height: 608px;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 0;
   object-fit: fill;
 }
 
@@ -77,6 +79,7 @@ h1 {
   position: absolute;
   top: 64px;
   right: 0;
+  z-index: -1;
 }
 
 div {
@@ -87,3 +90,106 @@ div {
     display:flex;
 }
 
+.two-columns {
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto 100px;
+
+ }
+
+ .brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  flex-direction: row;
+  align-self: flex-start;
+
+}
+
+.main-text {
+  line-height:34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 80%;
+  min-width: 784px
+
+}
+
+.paragraph {
+  line-height:34px;
+  font-size: 24px;
+  font-weight: normal;
+  justify-content:space-around;
+}
+
+.paragraph p{
+  margin:30px 0 0;
+}
+
+.paragraph p:first-child{
+  margin-top: 0;
+}
+
+.span-accent {
+  line-height:34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-title {
+  width: 60%;
+  margin: 100px auto 0px;
+}
+
+h2 {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.section-subtitle {
+  margin: 20px auto 0;
+  width: 60%
+}
+
+.section-subtitle p {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  flex-wrap:wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 auto 100px;
+  width: 1100px
+
+}
+
+.table__cell {
+  width: 250px;
+
+}
+
+.table__heading {
+  margin: 60px 0 0;
+}
+
+.table__text {
+  padding: 20px 0 0px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h4 {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
