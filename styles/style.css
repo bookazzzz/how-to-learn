@@ -19,8 +19,7 @@
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell {
-  width: 200px;
-
+  width: 250px;
   margin-right: 0;
   margin-top: 80px;
 }
@@ -167,10 +166,6 @@ h2 {
   width: 1100px;
 }
 
-.table__cell {
-  width: 250px;
-}
-
 .table__heading {
   margin: 60px 0 0;
 }
@@ -272,6 +267,7 @@ h6 {
 .table__cell__theme_dark {
   margin-top: 80px;
   width: 200px;
+  z-index: 1;
 }
 
 .table__text__theme_dark {
@@ -288,10 +284,6 @@ h6 {
   position: absolute;
   right: -210px;
   top: 0;
-}
-
-.table__cell__theme_dark {
-  z-index: 1;
 }
 
 .footer {
