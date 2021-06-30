@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -37,11 +37,10 @@
   align-items: center;
   padding-left: 64px;
   z-index: 2;
-
 }
 
 h1 {
-  line-height:  96px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: bold;
 }
@@ -51,7 +50,7 @@ h1 {
   bottom: 30px;
   position: absolute;
   width: 388px;
-  line-height:25px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   z-index: 1;
@@ -69,7 +68,7 @@ h1 {
 }
 
 .image__main-illustration {
-  height:100%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -85,10 +84,8 @@ h1 {
   align-self: flex-end;
 }
 
-
-
 .flex-row {
-    display:flex;
+  display: flex;
 }
 
 .two-columns {
@@ -96,45 +93,42 @@ h1 {
   justify-content: space-between;
   width: 80%;
   margin: 100px auto 100px;
+}
 
- }
-
- .brief {
+.brief {
   width: 175px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   flex-direction: row;
   align-self: flex-start;
-
 }
 
 .main-text {
-  line-height:34px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 80%;
-  min-width: 784px
-
+  min-width: 784px;
 }
 
 .paragraph {
-  line-height:34px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-.paragraph p{
-  margin:30px 0 0;
+.paragraph p {
+  margin: 30px 0 0;
 }
 
-.paragraph p:first-child{
+.paragraph p:first-child {
   margin-top: 0;
 }
 
 .span-accent {
-  line-height:34px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -150,12 +144,11 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin: 0;
-
 }
 
 .section-subtitle {
   margin: 20px auto 0;
-  width: 60%
+  width: 60%;
 }
 
 .section-subtitle p {
@@ -167,11 +160,11 @@ h2 {
 }
 
 .table {
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
   margin: 0 auto 100px;
-  width: 1100px
+  width: 1100px;
 }
 
 .table__cell {
@@ -195,7 +188,6 @@ h4 {
   font-weight: bold;
   margin: 0;
 }
-
 
 h3 {
   line-height: 1.15;
@@ -252,7 +244,6 @@ h5 {
   background: black;
   position: relative;
   overflow: hidden;
-
 }
 
 .white_text {
@@ -262,7 +253,7 @@ h5 {
 .section-title__theme_dark {
   width: 60%;
   padding-top: 90px;
-  margin: 0 auto 0
+  margin: 0 auto 0;
 }
 
 .section-subtitle__dark {
@@ -277,8 +268,6 @@ h6 {
   font-weight: normal;
   margin: 0;
 }
-
-
 
 .table__cell__theme_dark {
   margin-top: 80px;
@@ -299,7 +288,6 @@ h6 {
   position: absolute;
   right: -210px;
   top: 0;
-
 }
 
 .table__cell__theme_dark {
@@ -312,8 +300,6 @@ h6 {
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-
-
 }
 
 .footer__column_content_copyright {
@@ -321,11 +307,9 @@ h6 {
   flex-direction: column;
   justify-content: space-between;
   display: flex;
-
 }
 
 .footer__columns {
-
   margin: 60px auto 40px;
   width: 90%;
   justify-content: space-between;
@@ -356,7 +340,6 @@ h6 {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .color_link_footer {
