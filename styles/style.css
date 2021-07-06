@@ -88,9 +88,6 @@
   display: flex;
 }
 
-.flex-row {
-  display: flex;
-}
 
 .two-columns {
   align-items: center;
@@ -201,9 +198,8 @@
 .feynman {
   flex-direction: column;
   position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  height: 890px;
+  
   display: flex;
   background-color: #f2f2f2;
 }
