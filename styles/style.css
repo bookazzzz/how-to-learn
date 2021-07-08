@@ -14,6 +14,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
@@ -24,10 +26,6 @@
   margin-top: 60px;
 }
 
-.logo {
-  display: flex;
-}
-
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -36,11 +34,9 @@
 
 .header__title {
   width: 730px;
-  height: 100%;
   align-items: center;
   padding-left: 64px;
   z-index: 2;
-  display: flex;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
