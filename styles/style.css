@@ -17,8 +17,6 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-
-  /* выше установили ограничения для секции */
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -32,6 +30,11 @@
   position: absolute;
   top: 30px;
   left: 64px;
+}
+
+.logo {
+  width: 182px;
+  height: 32px;
 }
 
 .header__title {
@@ -69,7 +72,7 @@
   right: 0;
   bottom: 0;
   z-index: 2;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -170,6 +173,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .feynman__title {
@@ -186,7 +190,7 @@
 .feynman {
   flex-direction: column;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   background-color: #f2f2f2;
 }
@@ -227,28 +231,27 @@
   background: black;
   position: relative;
   overflow: hidden;
-  z-index: -2;
 }
 
 .section-title_theme_dark {
   margin: 90px auto 0;
   color: white;
-  z-index: 2;
+  z-index: 4;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
+  z-index: 3;
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px;
+  margin: 0px auto 90px;
 }
 
 .table__cell_theme_dark {
   margin-top: 80px;
   width: 200px;
-  z-index: 1;
+  z-index: 2;
   color: white;
 }
 
@@ -261,7 +264,7 @@
 }
 
 .kaufman__triangle {
-  z-index: -1;
+  z-index: 1;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -274,11 +277,11 @@
   background-color: black;
   display: flex;
   justify-content: center;
+  min-height: 350px;
 }
 
 .footer__columns {
   width: 90%;
-  min-height: 350px;
   margin: 60px auto 40px;
   align-items: stretch;
   display: flex;
