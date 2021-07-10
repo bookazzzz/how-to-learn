@@ -280,11 +280,12 @@
 .footer {
   background-color: black;
   justify-content: center;
-  min-height: 350px;
-  padding: 60px 0 40px;;
+  min-height: 250px;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
+  min-height: 250px;
   width: 90%;
   margin: 0 auto;
   align-items: stretch;
@@ -292,10 +293,12 @@
   justify-content: space-between;
   flex-direction: row;
 }
+
 .footer__column {
   flex-direction: column;
   display: flex;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
@@ -305,6 +308,7 @@
   width: 183px;
   height: 35px;
 }
+
 .footer__author {
   padding: 18px 0;
   margin: 0;
@@ -319,6 +323,7 @@
   width: 16px;
   padding-right: 10px;
 }
+
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
@@ -326,11 +331,13 @@
   color: white;
   margin: 0 0 20px;
 }
+
 .footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 0 0 16px;
 }
+
 .footer__column-link {
   font-size: 18px;
   line-height: 30px;
