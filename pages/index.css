@@ -8,8 +8,8 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/feynman/__img/feynman__img.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
@@ -42,4 +42,5 @@
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/root/root.css);
