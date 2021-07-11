@@ -1,0 +1,7 @@
+.kaufman {
+  flex-direction: row;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  padding: 90px 0;
+}
