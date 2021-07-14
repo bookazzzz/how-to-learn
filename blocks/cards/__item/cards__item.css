@@ -1,7 +1,6 @@
 .cards__item {
   width: 240px;
   margin-right: 100px;
-  margin-bottom: 60px;
 }
 
 .cards__item:nth-of-type(3n) {
